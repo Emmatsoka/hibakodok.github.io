@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            micro:bit | Hibakodok
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="tartalom">
+        <h1>micro:bit</h1>
+        <h3>Hibakódok</h3>
+         <br>
+        <p>Ha a micro:bit kifogy az erőforrásokból, vagy hibát észlel, „pánik” rutinba lép, amely szomorú arcot jelenít meg a micro:bit képernyőn, majd egy számot , például 529-et.</p>
+        <br>
+        <p>
+            A micro:bit hátulján található reset gomb megnyomásával minden esetben újraindul a program, amely törli a RAM memóriát és újraindul.
+            
+            </p>
+            <br>
+            <p>Íme egy lista a hibákról, és leírja, hogy mit jelentenek, és mit tehet a javításuk érdekében. Ezeket itt egyenként is dokumentáljuk a támogatási oldalon:</p>
+        <br>
+        <h3>Hardverhibák (010-099)</h3>
+        
+            <table id="tcenter">
+                <thead>
+                <tr>
+                  <th id="hiba">Hiba száma</th>
+                  <th id="mit">Mit jelent</th>
+                </tr>
+            </thead>
+                <tr>
+                  <td>010</td>
+                  <td>A micro:bit I2C busza nem működik. A készülék fizikailag megsérülhet.        </td>
+                </tr>
+                <tr>
+                  <td>020</td>
+                  <td>A micro:biten nincs szabad memória. Lehet, hogy a program túl bonyolult, vagy sok nagy változót tartalmazhat. Próbálja meg csökkenteni a kódot úgy, hogy nagy részekből         függvényeket készít .</td>
+                </tr>
+                <tr>
+                    <td>030</td>
+                    <td>Sérülés észlelhető a micro:bit kupactérben (általában a változók tárolására lefoglalt memória). Próbáljon meg egy másik .hex fájlt villogtatni az eszközén        </td>
+                  </tr>
+                  <tr>
+                    <td>040</td>
+                    <td>A micro:bit nem tudja megfelelően végrehajtani a szkriptet. Villogjon rá egy másik .hex fájlt, majd próbálja meg újra villogni, és futtassa újra az előző szkriptet.     </td>
+                  </tr>
+                  <tr>
+                    <td>042</td>
+                    <td>A micro:bit nem tudja megfelelően végrehajtani a szkriptet. Villogjon rá egy másik .hex fájlt, majd próbálja meg újra villogni, és futtassa újra az előző szkriptet</td>
+                  </tr>
+                  <tr>
+                    <td>043</td>
+                    <td>Hiba történt a micro:bit rádiókomponensével.   </td>
+                  </tr>
+                  <tr>
+                    <td>050</td>
+                    <td>Hiba történt a micro:bit gyorsulásmérő összetevőjével.  </td>
+                  </tr>
+                  <tr>
+                    <td>051</td>
+                    <td>Hiba történt a micro:bit magnetométer komponensével.        </td>
+                  </tr>
+                  <td>090</td>
+                  <td>A tényleges kártya hardver nem egyezik a konfiguráció leírásával. Ez akkor fordulhat elő, ha egy érzékelőt többször inicializálnak benne</td>
+                </tr>
+                <td>098</td>
+                <td>Az állítás meghiúsult. MakeCode hiba, amely akkor fordul elő, ha egy állítás feltétele hamis volt.</td>
+              </tr>
+
+              </table>
+              <br>
+             <h3> MakeCode Editor hibák (800-989)</h3>
+        
+             <table id="tcenter">
+                <caption id="caption">Szemétgyűjtő hibák</caption>
+                <thead>
+                <tr>
+                  <th id="hiba">Hiba száma</th>
+                  <th id="mit">Mit jelent</th>
+                </tr>
+            </thead>
+                <tr>
+                  <td>840</td>
+                  <td>	Az elosztási mutató nulla vagy érvénytelen.</td>
+                </tr>
+                <tr>
+                  <td>841</td>
+                  <td>Szemétgyűjtési munkasor hiba.</td>
+                </tr>
+                <tr>
+                    <td>843</td>
+                    <td>A VTable belépés nem ingyenes.</td>
+                  </tr>
+                  <tr>
+                    <td>844</td>
+                    <td>A GC-kiosztás nem sikerült a kért bájtok számára.</td>
+                  </tr>
+                  <tr>
+                    <td>846</td>
+                    <td>	Érvénytelen hozzárendelési szál.</td>
+                  </tr>
+                  <tr>
+                    <td>848</td>
+                    <td>Kiosztási mutató az allokációs fejlécen túl.</td>
+                  </tr>
+                  <tr>
+                    <td>849</td>
+                    <td>Az elosztási mutató nulla.</td>
+                  </tr>
+
+              </table>
+        <br>
+        <br>
+
+              <table id="tcenter">
+                <caption id="caption">Programelérési hibák</caption>
+                <thead>
+                <tr>
+                  <th id="hiba">Hiba száma</th>
+                  <th id="mit">Mit jelent</th>
+                </tr>
+            </thead>
+                <tr>
+                  <td>901</td>
+                  <td>Az objektum típusfejléce érvénytelen.</td>
+                </tr>
+                <tr>
+                  <td>902</td>
+                  <td>Az objektumadat-rész nagyobb, mint a számára meghatározott hosszúság.</td>
+                </tr>
+                <tr>
+                    <td>903</td>
+                    <td>Egy objektumhivatkozás törölve lett, és az objektum már nem érvényes.</td>
+                  </tr>
+                  <tr>
+                    <td>904</td>
+                    <td>Az objektum mérete nem egyezik a típushoz meghatározott mérettel.</td>
+                  </tr>
+                  <tr>
+                    <td>905</td>
+                    <td>Egy objektum vtábla érvénytelen vagy nincs inicializálva.</td>
+                  </tr>
+                  <tr>
+                    <td>906</td>
+                    <td>Belső erőforráshiba.</td>
+                  </tr>
+                  <tr>
+                    <td>907</td>
+                    <td>A megadott eszközerőforrás nincs jelen.</td>
+                  </tr>
+                  <tr>
+                    <td>909</td>
+                    <td>Az argumentum értéke tartományon kívül esik, vagy a típus vagy a formátum érvénytelen.</td>
+                  </tr>
+                  <tr>
+                    <td>927</td>
+                    <td>A program nem kompatibilis az Ön által használt micro:bit verzióval. A micro:bit V2-höz tervezett funkciót próbálja használni micro:bit V1-en, vagy egy olyan bővítményt, amely csak a micro:bit V2-n lévő micro:bit V1 kártyával kompatibilis.</td>
+                  </tr>
+                  <tr>
+                    <td>928</td>
+                    <td>A micro:bit adatnapló megtelt. Törölje a meglévő adatokat, vagy frissítsen egy új programot a micro:bitre</td>
+                  </tr>
+
+              </table>
+              <br>
+              <br>
+              <h4>JavaScript futásidejű kódok</h4>
+
+            <p>Ezek például akkor fordulnak elő, ha a statikus típusa xegy osztály c, a dinamikus típusa xnem c, és megpróbál hozzáférni egy mezőhöz, xvagy meghív egy metódust xa következőn: x.</p>
+
+              
+              <br>
+
+
+              <table id="tcenter">
+                <caption id="caption">Programelérési hibák</caption>
+                <thead>
+                <tr>
+                  <th id="hiba">Hiba száma</th>
+                  <th id="mit">Mit jelent</th>
+                </tr>
+            </thead>
+                <tr>
+                  <td>980</td>
+                  <td>Amikor az értéke xnem definiált.</td>
+                </tr>
+                <tr>
+                  <td>981</td>
+                  <td>	Amikor értéke xvagy true.false</td>
+                </tr>
+                <tr>
+                    <td>982</td>
+                    <td>Mikor xegy szám.</td>
+                  </tr>
+                  <tr>
+                    <td>983</td>
+                    <td>	Mikor xvan egy karakterlánc</td>
+                  </tr>
+                  <tr>
+                    <td>984</td>
+                    <td>Amikor xvalamilyen típusú objektum.</td>
+                  </tr>
+                  <tr>
+                    <td>985</td>
+                    <td>Mikor xegy függvény.</td>
+                  </tr>
+                  <tr>
+                    <td>989</td>
+                    <td>Mikor xnulla.</td>
+                  </tr>
+              </table>
+
+
+
+              <br>
+              <h3>MicroPython OS hibák</h3>
+              <p>Közzétettük a MicroPython OSE-hibakódok és -leírások listáját, amelyek akkor fordulnak elő, ha egy rendszerműködés rendszerrel kapcsolatos hibát okoz, beleértve az olyan I/O hibákat, mint például a „fájl nem található” vagy „lemez megtelt”.</p>
+              <br>
+              <h3>USB DAPLink hibák (500–599)</h3>
+              <p>Az 5  -tel kezdődő hibák hibára utalnak, amikor egy fájlt USB-n keresztül micro:bitre villogtatnak. A gyakori hibákat alább ismertetjük. A hiba törléséhez próbáljon meg újra villogni. Ha a hiba továbbra is fennáll, vagy ha az 500-599 tartományban gyakran előforduló hibákat látja, kérjük , jelentse nekünk .</p>
+              <br>
+
+    
+                  <table id="tcenter">
+                <thead>
+                <tr>
+                  <th id="hiba">Hiba száma</th>
+                  <th id="mit">Mit jelent</th>
+                </tr>
+            </thead>
+                <tr>
+                  <td>502</td>
+                  <td>A micro:bit belső hibát  észlelt . Ez a drag and drop flash folyamat során fordulhat elő. A probléma megoldásához próbálja meg leválasztani, majd újra csatlakoztatni a micro:bitet.</td>
+                </tr>
+                <tr>
+                  <td>504</td>
+                  <td>A hexa fájl átvitele a micro:bitre lejárt . Ez azt jelenti, hogy a villogási folyamat túl sokáig tartott. Ez a hiba akkor is előfordulhat, ha a fájl nem rendelkezik .hex kiterjesztéssel. Jelenleg ezt a hibát vizsgáljuk, ezért ha  többször is előfordul, kérjükjelentse nekünk .</td>
+                </tr>
+                <tr>
+                    <td>506</td>
+                    <td>A hexa fájl nem működik . Ez azt jelenti, hogy a kód a .hex fájlban olyan sorrendben van, ahogyan a micro:bit nem számított. Ez akkor fordulhat elő, ha áthúz egy .hex fájlt az eszközre, mielőtt az előző befejezte a villogást. Próbáld meg leválasztani, majd újra csatlakoztatni a micro:bitet, és villogni egy másik .hex fájlt.</td>
+                  </tr>
+                  <tr>
+                    <td>528</td>
+                    <td>A micro:bit nem támogatott frissítést  észlelt . Ez akkor fordulhat elő, ha normál MICROBIT módban próbál meg flashelni egy firmware .hex fájlt. A probléma megoldásához próbáljon meg villogni egy, az egyik online szerkesztőben  létrehozott fájlt.</td>
+                  </tr>
+                  <tr>
+                    <td>529</td>
+                    <td>A micro:bit nem kompatibilis képet  észlelt . Ez akkor fordulhat elő, ha egy régi .hex fájlt próbál meg használni a legújabb micro:bittel. Próbálja meg frissíteni a hexa fájlt abban a szerkesztőben, amelyben létrehozta, majd töltse le újra.</td>
+                  </tr>
+              </table>
+              <br>
+              
+              <hr>
+    <footer>
+        <p ><bold id="keszito">Oldalt Készítette:</bold> Szanyi Szabolcs</p>
+        <p ><bold id="keszito">Forrás:</bold> <a href="https://support.microbit.org/support/solutions/articles/19000016969-micro-bit-error-codes" target="_blank">micro:bit hibakódok</a></p>
+    </footer>
+            </div>
+    </body>
+</html>
