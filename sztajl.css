@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 #tartalom{
-        margin: 5% 15%;
+        margin: 5% 5%;
         text-align: center;
         border: 5px solid;
         padding: 5%;
@@ -33,6 +33,7 @@ table{
 table td{
     border: 1px solid #63eba6;
     background-color: black;
+    padding: 5px;
 }
 #hiba{
     border: 1px solid #63eba6;
@@ -52,9 +53,7 @@ table td{
 #caption{
     font-weight: 200;
 }
-footer{
-    
-}
+
 #keszito{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
