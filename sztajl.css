@@ -73,3 +73,19 @@ a{
 hr{
     border: 1px solid #63eba6;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3aa46f;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a7d53;
+  }
