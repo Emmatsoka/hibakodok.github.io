@@ -6,8 +6,8 @@ body{
 body p{
     background: #57E7C8;
 background: linear-gradient(to right, #57E7C8 0%, #38fb6e 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
