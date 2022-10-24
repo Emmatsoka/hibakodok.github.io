@@ -153,3 +153,7 @@ hr{
       height: auto;
     }
 }
+#logo:hover{
+    width: 8%;
+    height: auto;
+  }
