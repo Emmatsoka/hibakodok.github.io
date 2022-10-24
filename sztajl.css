@@ -16,8 +16,8 @@ body p{
         text-align: center;
         border: 5px solid #63eba6;
         padding: 5%;
-        border-radius: 15px;
-        background-color: rgba(0, 0, 0, 0.826);
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.759);
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.532);
         
 }
@@ -51,7 +51,7 @@ p{
 }
 table{
     border-color: #37d285;
-    border-radius: 10px;
+    border-radius: 12px;
     border: 2px solid #37d285;
     background-color: #37d285;
 }
