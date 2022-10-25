@@ -153,3 +153,8 @@ hr{
       height: auto;
     }
 }
+@media screen and (max-width: 500px) {
+  #tartalom{
+  margin: 3% 1%;
+  }
+}
