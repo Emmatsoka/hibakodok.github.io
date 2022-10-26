@@ -162,3 +162,15 @@ hr{
   margin: 3% 1%;
   }
 }
+table{
+  width: 80%;
+  height: auto;
+}
+@media screen and (max-width: 1000px) {
+  table{
+  width:100%;
+  }
+}
+table td{
+  font-size: 110%;
+}
