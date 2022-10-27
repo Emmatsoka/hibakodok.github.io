@@ -26,6 +26,12 @@ body p{
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.532);    
 }
 
+@media screen and (max-width: 500px) {
+  #tartalom{
+    background-color: rgba(0, 0, 0, 0.648);
+  }
+}
+
 #tartalom #p{
     max-width: 800px;
     margin: 0 auto;
@@ -205,3 +211,4 @@ table td{
   font-style: normal;
   background-color: rgba(43, 221, 147, 0.173);
 }
+
