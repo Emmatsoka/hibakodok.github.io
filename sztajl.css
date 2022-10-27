@@ -1,5 +1,8 @@
 body{
-    background-image: url('hatter1.jpg');
+    background-image: url('hatter2.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #2be478;
     font-family: Arial, Helvetica, sans-serif;
 }
