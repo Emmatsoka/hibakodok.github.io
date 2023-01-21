@@ -187,8 +187,15 @@ hr{
 
 @media screen and (max-width: 500px) {
   main{
-  margin: 3% 1%;
-  }
+  margin: 0px;
+  border: 0px;
+
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
 }
 
 table{
